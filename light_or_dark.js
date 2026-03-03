@@ -20,8 +20,8 @@ if (navigator.cookieEnabled) {
 
 
 function dark() {
-    document.documentElement.style.setProperty('--bg-light-or-dark', "#333333")
-    document.documentElement.style.setProperty('--bd-light-or-dark', "#252525")
+    document.documentElement.style.setProperty('--bg-light-or-dark', "#161616")
+    document.documentElement.style.setProperty('--bd-light-or-dark', "#000000")
     document.documentElement.style.setProperty('--ft-light-or-dark', "#999999")
     document.documentElement.style.setProperty('--im-light-or-dark', "opacity(50%)")
     //dqh
@@ -29,7 +29,7 @@ function dark() {
     //cookie
     document.cookie = "mode = dark;path=/";
     //czp
-    document.documentElement.style.setProperty('--bg-cl', '#333333')
+    document.documentElement.style.setProperty('--bg-cl', '#000000')
     document.documentElement.style.setProperty('--ft-cl', '#999999')
     document.getElementById("czp_dark").style.display = "none"
     document.getElementById("czp_light").style.display = "inline"
