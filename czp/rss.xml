@@ -2,12 +2,17 @@
 <rss version="2.0">
 
 <channel>
-    <title>JKFZ187</title>
-    <link>https://arimlll.github.io/jkfz187</link>
-    <description>江科附中2018级七班</description>
+    <title>JKFZ187 - 一些蠢小说</title>
+    <link>https://arimlll.github.io/jkfz187/czp/</link>
+    <image>
+        <url>logo.ico</url>
+        <title>CZP</title>
+        <link>https://arimlll.github.io/jkfz187/czp/</link>
+    </image>
+    <description></description>
     <item>
         <title>如何让小野猫爱上我？AI续写播客</title>
-        <enclosure url="xym_podcast.wav" type="audio/mpeg" />
+        <enclosure url="xym_podcast.wav" length="37481878" type="audio/wav"/>
         <link>https://arimlll.github.io/jkfz187/czp/text01.html</link>
         <description>“叮铃铃，叮铃铃。”清脆的车铃声乘着早晨的微风，钻入小巷里。
     一身干净透亮的白色衬衫，衬出他满分的身材，微微过耳的头发，额前的刘海飘起，白净的脸庞，路上女孩子们的目光聚集着，可他似乎没有感觉到。
