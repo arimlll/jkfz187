@@ -2,21 +2,40 @@
 <rss version="2.0">
 
 <channel>
-    <title>JKFZ187 - 一些蠢小说</title>
+    <title>一些蠢小说 - JKFZ187</title>
     <link>https://arimlll.github.io/jkfz187/czp/</link>
+    <language>zh-cn</language>
+    <copyright>© 毛毛&Xiiii.</copyright>
+    <itunes:author>JKFZ187</itunes:author>
+    <itunes:summary>一些蠢小说的播客合集</itunes:summary>
+    <itunes:category text="Fiction">
+        <itunes:category text="Short Stories"/>
+    </itunes:category>
+    <itunes:image href="https://arimlll.github.io/jkfz187/img/dwt.webp"/>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:owner>
+        <itunes:name>JKFZ187</itunes:name>
+        <itunes:email>beiming.ariml@outlook.com</itunes:email>
+    </itunes:owner>
+    
     <image>
-        <url>logo.ico</url>
+        <url>https://arimlll.github.io/jkfz187/img/dwt.webp</url>
         <title>CZP</title>
         <link>https://arimlll.github.io/jkfz187/czp/</link>
     </image>
-    <description></description>
+    <description>一些蠢小说的播客合集</description>
+    
     <item>
-        <title>如何让小野猫爱上我？AI续写播客</title>
-        <enclosure url="xym_podcast.wav" length="37481878" type="audio/wav"/>
+        <title>如何让小野猫爱上我？</title>
+        <enclosure url="https://arimlll.github.io/jkfz187/czp/xym_podcast.wav" length="11837524" type="audio/wav"/>
         <link>https://arimlll.github.io/jkfz187/czp/text01.html</link>
-        <description>“叮铃铃，叮铃铃。”清脆的车铃声乘着早晨的微风，钻入小巷里。
-    一身干净透亮的白色衬衫，衬出他满分的身材，微微过耳的头发，额前的刘海飘起，白净的脸庞，路上女孩子们的目光聚集着，可他似乎没有感觉到。
-        </description>
+        <description>"叮铃铃，叮铃铃。"清脆的车铃声乘着早晨的微风，钻入小巷里。</description>
+        <itunes:subtitle>AI 续写播客</itunes:subtitle>
+        <itunes:summary>如何让小野猫爱上我？AI 续写播客</itunes:summary>
+        <itunes:duration>00:13:00</itunes:duration>
+        <itunes:explicit>false</itunes:explicit>
+        <pubDate>Wed, 04 Mar 2026 10:30:00 GMT</pubDate>
+        <guid isPermaLink="false">xym_podcast</guid>
     </item>    
 </channel>
 
