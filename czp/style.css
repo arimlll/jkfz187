@@ -129,3 +129,10 @@ button#money_enter,#money_clear{
 .lock{
     filter: var(--dqh) var(--im-light-or-dark);
 }
+
+.modal-body p{
+    text-indent: 2em;
+    font-size: 15pt !important;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}

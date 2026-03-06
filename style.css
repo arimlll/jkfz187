@@ -137,6 +137,111 @@ li > a{
     border: 1px solid #666666 !important;
 }
 
+/* 教师姓名样式 */
+.teacher-name {
+    font-weight: bold;
+    color: var(--ft-light-or-dark);
+}
+
+/* 查看详情按钮 */
+.teacher-detail-btn {
+    margin-top: 5px;
+}
+
+/* 按钮居中容器 */
+.teacher-btn-wrapper {
+    text-align: center;
+    margin: 0;
+}
+
+/* 教师轮播响应式适配 */
+
+/* 平板端 (768px - 992px) */
+@media (max-width: 992px) {
+    .item > img {
+        height: 250px !important;
+        margin-right: 30px;
+    }
+    .item > p {
+        margin-right: 30px;
+        font-size: 14px;
+    }
+    .item > p > small {
+        font-size: 12px;
+    }
+}
+
+/* 手机横屏/小平板 (480px - 768px) */
+@media (max-width: 768px) {
+    .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+    .item > img {
+        height: 200px !important;
+        float: none;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 15px;
+        display: block;
+    }
+    .item > p {
+        margin-right: 0;
+        font-size: 14px;
+    }
+    .carousel-control {
+        width: 15%;
+    }
+    .carousel-indicators {
+        bottom: -55px !important;
+    }
+    .carousel-indicators li {
+        width: 8px;
+        height: 8px;
+        margin: 0 3px;
+    }
+}
+
+/* 手机竖屏 (< 480px) */
+@media (max-width: 480px) {
+    .item > img {
+        height: 150px !important;
+    }
+    .item > p {
+        font-size: 12px;
+    }
+    .carousel-indicators li {
+        width: 6px;
+        height: 6px;
+        margin: 0 2px;
+    }
+}
+
+/* 按钮样式 */
+.btn{
+    background: var(--bg-light-or-dark) !important;
+    color: var(--ft-light-or-dark) !important;
+    border: 1px solid var(--ft-light-or-dark) !important;
+    border-radius: 10px !important;
+}
+
+/* 弹窗样式 */
+.modal-body h4{
+    color: var(--ft-light-or-dark) !important;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.modal-body p{
+    text-indent: 2em;
+    font-size: small;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
 .images img{
     width: 100%;
     height: auto;

@@ -6,7 +6,7 @@ sleep(500).then(() => $(function () {
     var c = document.getElementById('hitokoto')
     var hitokoto_from = document.getElementById('hitokoto_from')
     var xhr = new XMLHttpRequest()
-    xhr.open('get', 'https://v1.hitokoto.cn')
+    xhr.open('get', 'https://v1.hitokoto.cn?c=a&c=b&c=c&c=d&c=i&c=k')
     xhr.onreadystatechange = function () {
         if (xhr.readyState === 4) {
             var data = JSON.parse(xhr.responseText)

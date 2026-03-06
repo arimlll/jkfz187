@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="logo.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">  
+    <script src="../bootstrap/jquery.min.js"></script>
+    <script src="../bootstrap/bootstrap.min.js"></script>
+    <script src="../light_or_dark.js"></script>
+    <title>Podcast</title>
+    <style>
+        body{
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        img{
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
+            display: block;
+            filter: var(--im-light-or-dark);
+        }
+    </style>
+</head>
+
+<body>
+    <br><br><br><img src="logo.ico" alt="CZP">
+    <h2>使用 Apple Podcasts<br>聆听《如何让小野猫爱上我？》</h2><br>
+    <a href="index.html">◀ 返回主页 /</a>
+    <a onclick="light()" id="czp_light">浅色模式</a>
+    <a onclick="dark()" id="czp_dark" style="display:none;">深色模式</a>
+    <h3><li>步骤一</li></h3>
+    <p>点按 <a class="RSSCopy">复制 RSS 订阅链接</a> 。</p>
+    <h3><li>步骤二</li></h3>
+    <p>使用 iOS</p>
+    <ol>
+        <li>打开“播客”App。</li>
+        <li>轻点“资料库”。<br></li>
+        <li>轻点右上角的“编辑”，然后选择“通过 URL 关注节目...”。<br></li>
+        <li>输入 RSS 订阅链接。<br></li>
+        <li>轻点“关注”。<br></li>
+    </ol>
+    <p>使用 MacOS</p>
+    <ol>
+        <li>打开“播客”App。</li>
+        <li>点按“文件”，然后选择“通过 URL 关注节目...”。<br></li>
+        <li>输入 RSS 订阅链接。<br></li>
+        <li>选择“关注”。<br></li>
+    </ol>
+    <h3><li>步骤三</li></h3>
+    <p>尽情聆听本播客。</p>
+    <script>
+        document.addEventListener('click', function(e) {
+            if (e.target.classList.contains('RSSCopy')) {
+                const text = e.target.innerText;
+                navigator.clipboard.writeText('https://arimlll.github.io/jkfz187/czp/rss.xml')
+                .then(() => alert(`已复制 RSS 订阅链接`))
+                .catch(err => console.error('复制失败', err));
+            }
+        });
+    </script>
+</body>
+</html>
